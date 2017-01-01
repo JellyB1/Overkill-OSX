@@ -32,9 +32,8 @@ This doesn't appear to be working the API does not like me.
 Then I want to add touchbar functionality not sure if it supports global touchbar keys or it is context specific.
 
 # Images
-
-[1]: [ScreenShots/1.png]
-[2]: [ScreenShots/2.png]
-[3]: [ScreenShots/3.png]
-[4]: [ScreenShots/4.png]
+![Alt text](ScreenShots/1.png)
+![Alt text](ScreenShots/2.png)
+![Alt text](ScreenShots/3.png)
+![Alt text](ScreenShots/4.png)
 
