@@ -36,6 +36,9 @@ If you guys would be willing to help me visit my go fund me page.
 
 https://www.gofundme.com/replacement-macbook-for-career-goal
 
+# Liscense 
+MIT
+
 # Images
 ![Alt text](ScreenShots/1.png)
 ![Alt text](ScreenShots/2.png)
