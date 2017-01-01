@@ -7,37 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0488831E176E320080F1D7 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0488821E176E320080F1D7 /* ServiceManagement.framework */; };
+		EE0488CA1E17977E0080F1D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0488C91E17977E0080F1D7 /* AppDelegate.swift */; };
+		EE0488CE1E17977E0080F1D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0488CD1E17977E0080F1D7 /* Assets.xcassets */; };
+		EE0488D61E1798C80080F1D7 /* HelperOverkillLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE0488C71E17977E0080F1D7 /* HelperOverkillLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		EE3DAA371E16FC2F00FF6747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3DAA361E16FC2F00FF6747 /* AppDelegate.swift */; };
-		EE3DAA391E16FC2F00FF6747 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3DAA381E16FC2F00FF6747 /* ViewController.swift */; };
 		EE3DAA3B1E16FC2F00FF6747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3DAA3A1E16FC2F00FF6747 /* Assets.xcassets */; };
 		EE3DAA3E1E16FC2F00FF6747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3DAA3C1E16FC2F00FF6747 /* Main.storyboard */; };
+		EE3DAA461E16FC5F00FF6747 /* Overkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3DAA451E16FC5F00FF6747 /* Overkill.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EE0488841E176E690080F1D7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 7;
+			files = (
+				EE0488D61E1798C80080F1D7 /* HelperOverkillLauncher.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		EE0488821E176E320080F1D7 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		EE0488B01E177A680080F1D7 /* Overkill.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Overkill.entitlements; sourceTree = "<group>"; };
+		EE0488C71E17977E0080F1D7 /* HelperOverkillLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelperOverkillLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0488C91E17977E0080F1D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE0488CD1E17977E0080F1D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE0488D21E17977F0080F1D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE3DAA331E16FC2F00FF6747 /* Overkill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Overkill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3DAA361E16FC2F00FF6747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE3DAA381E16FC2F00FF6747 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE3DAA3A1E16FC2F00FF6747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE3DAA3D1E16FC2F00FF6747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE3DAA3F1E16FC2F00FF6747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3DAA451E16FC5F00FF6747 /* Overkill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Overkill.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EE3DAA301E16FC2F00FF6747 /* Frameworks */ = {
+		EE0488C41E17977E0080F1D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE3DAA301E16FC2F00FF6747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0488831E176E320080F1D7 /* ServiceManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE0488811E176E310080F1D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE0488821E176E320080F1D7 /* ServiceManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE0488C81E17977E0080F1D7 /* HelperOverkillLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				EE0488C91E17977E0080F1D7 /* AppDelegate.swift */,
+				EE0488CD1E17977E0080F1D7 /* Assets.xcassets */,
+				EE0488D21E17977F0080F1D7 /* Info.plist */,
+			);
+			path = HelperOverkillLauncher;
+			sourceTree = "<group>";
+		};
 		EE3DAA2A1E16FC2F00FF6747 = {
 			isa = PBXGroup;
 			children = (
 				EE3DAA351E16FC2F00FF6747 /* Overkill */,
+				EE0488C81E17977E0080F1D7 /* HelperOverkillLauncher */,
 				EE3DAA341E16FC2F00FF6747 /* Products */,
+				EE0488811E176E310080F1D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				EE3DAA331E16FC2F00FF6747 /* Overkill.app */,
+				EE0488C71E17977E0080F1D7 /* HelperOverkillLauncher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +104,9 @@
 		EE3DAA351E16FC2F00FF6747 /* Overkill */ = {
 			isa = PBXGroup;
 			children = (
+				EE0488B01E177A680080F1D7 /* Overkill.entitlements */,
+				EE3DAA451E16FC5F00FF6747 /* Overkill.swift */,
 				EE3DAA361E16FC2F00FF6747 /* AppDelegate.swift */,
-				EE3DAA381E16FC2F00FF6747 /* ViewController.swift */,
 				EE3DAA3A1E16FC2F00FF6747 /* Assets.xcassets */,
 				EE3DAA3C1E16FC2F00FF6747 /* Main.storyboard */,
 				EE3DAA3F1E16FC2F00FF6747 /* Info.plist */,
@@ -64,6 +117,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EE0488C61E17977E0080F1D7 /* HelperOverkillLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0488D31E17977F0080F1D7 /* Build configuration list for PBXNativeTarget "HelperOverkillLauncher" */;
+			buildPhases = (
+				EE0488C31E17977E0080F1D7 /* Sources */,
+				EE0488C41E17977E0080F1D7 /* Frameworks */,
+				EE0488C51E17977E0080F1D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelperOverkillLauncher;
+			productName = HelperOverkillLauncher;
+			productReference = EE0488C71E17977E0080F1D7 /* HelperOverkillLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
 		EE3DAA321E16FC2F00FF6747 /* Overkill */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE3DAA421E16FC2F00FF6747 /* Build configuration list for PBXNativeTarget "Overkill" */;
@@ -71,6 +141,7 @@
 				EE3DAA2F1E16FC2F00FF6747 /* Sources */,
 				EE3DAA301E16FC2F00FF6747 /* Frameworks */,
 				EE3DAA311E16FC2F00FF6747 /* Resources */,
+				EE0488841E176E690080F1D7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -91,10 +162,23 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = angelica.ramos;
 				TargetAttributes = {
+					EE0488C61E17977E0080F1D7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C9CVXCL3EV;
+						ProvisioningStyle = Automatic;
+					};
 					EE3DAA321E16FC2F00FF6747 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = C9CVXCL3EV;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -112,11 +196,20 @@
 			projectRoot = "";
 			targets = (
 				EE3DAA321E16FC2F00FF6747 /* Overkill */,
+				EE0488C61E17977E0080F1D7 /* HelperOverkillLauncher */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EE0488C51E17977E0080F1D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0488CE1E17977E0080F1D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE3DAA311E16FC2F00FF6747 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -129,12 +222,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EE0488C31E17977E0080F1D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0488CA1E17977E0080F1D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EE3DAA2F1E16FC2F00FF6747 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE3DAA391E16FC2F00FF6747 /* ViewController.swift in Sources */,
 				EE3DAA371E16FC2F00FF6747 /* AppDelegate.swift in Sources */,
+				EE3DAA461E16FC5F00FF6747 /* Overkill.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +253,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		EE0488D41E17977F0080F1D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9CVXCL3EV;
+				INFOPLIST_FILE = HelperOverkillLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angelica.ramos.OverkillLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE0488D51E17977F0080F1D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9CVXCL3EV;
+				INFOPLIST_FILE = HelperOverkillLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.angelica.ramos.OverkillLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		EE3DAA401E16FC2F00FF6747 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -246,6 +379,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Overkill/Overkill.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = C9CVXCL3EV;
 				INFOPLIST_FILE = Overkill/Info.plist;
@@ -260,6 +395,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Overkill/Overkill.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = C9CVXCL3EV;
 				INFOPLIST_FILE = Overkill/Info.plist;
@@ -273,6 +410,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EE0488D31E17977F0080F1D7 /* Build configuration list for PBXNativeTarget "HelperOverkillLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0488D41E17977F0080F1D7 /* Debug */,
+				EE0488D51E17977F0080F1D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EE3DAA2E1E16FC2F00FF6747 /* Build configuration list for PBXProject "Overkill" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -289,6 +435,7 @@
 				EE3DAA441E16FC2F00FF6747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

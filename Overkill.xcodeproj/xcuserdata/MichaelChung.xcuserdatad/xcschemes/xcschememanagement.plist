@@ -4,14 +4,54 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>HelperOverkillLauncher.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>Overkill.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>OverkillHelper.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>OverkillLauncher.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>EE0488711E176C550080F1D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE0488891E1777E80080F1D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE04889D1E1778DF0080F1D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE0488B41E178AAF0080F1D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE0488C61E17977E0080F1D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>EE3DAA321E16FC2F00FF6747</key>
 		<dict>
 			<key>primary</key>
