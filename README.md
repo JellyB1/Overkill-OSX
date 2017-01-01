@@ -31,6 +31,11 @@ This doesn't appear to be working the API does not like me.
 
 Then I want to add touchbar functionality not sure if it supports global touchbar keys or it is context specific.
 
+My Macbook was stolen so my friend ArEnSc Mike lent me his laptop so I could continue this project.
+If you guys would be willing to help me visit my go fund me page.
+
+https://www.gofundme.com/replacement-macbook-for-career-goal
+
 # Images
 ![Alt text](ScreenShots/1.png)
 ![Alt text](ScreenShots/2.png)
