@@ -33,8 +33,8 @@ Then I want to add touchbar functionality not sure if it supports global touchba
 
 # Images
 
-[1]: ScreenShots/1.png
-[2]: ScreenShots/2.png
-[3]: ScreenShots/3.png
-[4]: ScreenShots/4.png
+[1]: [ScreenShots/1.png]
+[2]: [ScreenShots/2.png]
+[3]: [ScreenShots/3.png]
+[4]: [ScreenShots/4.png]
 
