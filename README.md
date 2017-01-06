@@ -1,10 +1,10 @@
-OverKill: An app that stop’s iTunes and iPhotos from being annoying when you are working with xCode.
+OverKill: An app that stop’s iTunes and iPhotos from being annoying when you are working with Xcode.
 
 http://www.mediafire.com/file/r5weqgavmckjqff/Overkill.app.zip
 
 I created this app for other OSX/iOS Developers who are tired of having iPhoto and iTunes open on them while in the middle of development because of reattaching the USB cable. 
 
-Please note: This app will force quit iPhotos and iTunes ONLY when you have xCode open. 
+Please note: This app will force quit iPhotos and iTunes ONLY when you have Xcode open. 
 
 So, the backstory.
 
