@@ -16,8 +16,10 @@ If you liked this app, or found it to be useful for your needs, please share wit
 
 Yap. That’s about that! Thanks for looking~!  
 
-Fund me on gofundme here:
+If you would be willing to help me by providing a small donation please do so on gofundme Here:
 https://www.gofundme.com/replacement-macbook-for-career-goal
+
+Otherwise enjoy the app :)
 
 http://www.mediafire.com/file/r5weqgavmckjqff/Overkill.app.zip
 # License
